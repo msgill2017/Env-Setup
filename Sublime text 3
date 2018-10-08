@@ -1,0 +1,26 @@
+1. Install package Controller.
+goto following site:
+https://packagecontrol.io/installation
+The simplest method of installation is through the Sublime Text console. 
+The console is accessed via the ctrl+` shortcut or the View > Show Console menu. 
+Once open, paste the appropriate Python code for your version of Sublime Text into the console. 
+which you will find on above site.
+
+2. Install following package through Package Controller
+  you can access Package Controller
+  Prefences -> Package Controller -> click install package
+  
+A. AdvanceNewFile
+B. Clipboard Manager
+C. Close Other Windows
+D. Dash Doc
+E. Docblockr
+F. Emmet
+H. Git gutter
+if you need why i add these package just google it.
+
+3. Following Packages only for Ruby Development
+a. Sublime Linter
+b. Sublime Linter-ruby
+c. Sublime Linter_rubocop
+d. Test Rspec
