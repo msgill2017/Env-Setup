@@ -1,0 +1,41 @@
+Make sure you have ruby, gem and bundler installed.
+
+Goto to project directory
+
+1. bundler gem --test = rspec project_name
+note: like rspec for testing 
+
+2. cd project_name
+
+3. Read Readme.md file 
+
+4. Delete TODO w0rds from project_name.gemspec
+
+5. bundle install
+
+6. bin/setup
+
+7. rake spec
+(fix the error or delete that test)
+
+8. git add. (I hope you have git already install and setup)
+
+9. git commit -m "Initial Commit"
+
+if you want to include init.rb in root of the project as a app starting piont
+
+1. make init.rb file
+
+Inside init.rb file write following code:
+APP_ROOT = File.dirname(__file__)
+$:unshift(file.join(APP_ROOT,"lib"))
+require "project_name"    # main file in lib dir of your project
+
+#If you have error no file then try following code
+
+Load_path << File.dirname(__file__)
+APP_ROOT = File.dirname(__file__)
+$:unshift(file.join(APP_ROOT,"lib"))
+require "project_name"    # main file in lib dir of your project
+
+
