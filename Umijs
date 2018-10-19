@@ -1,0 +1,27 @@
+First you should have node , and make sure it's version 8.10 or above.
+$ node -v
+
+Then install umi globally, and make sure it's 2.0.0 or above.
+
+$ yarn global add umi
+
+To use the installed packages, For bash for example, you can add this line at the end of your .bashrc:
+
+export PATH="$(yarn global bin):$PATH"
+
+$ umi version
+2.0.0
+
+Boilerplate
+
+First create an empty directory.
+
+$ mkdir myapp && cd myapp
+
+Then create some pages with umi g,
+
+$ umi g page index
+$ umi g page users
+
+umi g is the alias of umi generate, used for generate component, page, layout quickly. And it can be extended in plugins, 
+such as uni-plugin-dva extended dva:model, then you can generate dva's model via umi g dva:model foo.
