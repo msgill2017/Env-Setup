@@ -9,7 +9,7 @@ note: like rspec for testing
 
 3. Read Readme.md file 
 
-4. Delete TODO w0rds from project_name.gemspec
+4. Fix TODO words from project_name.gemspec
 
 5. bundle install
 
