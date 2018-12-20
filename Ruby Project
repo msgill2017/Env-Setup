@@ -2,7 +2,7 @@ Make sure you have ruby, gem and bundler installed.
 
 Goto to project directory
 
-1. bundler gem --test = rspec project_name
+1. bundler gem project_name --test =rspec 
 note: like rspec for testing 
 
 2. cd project_name
