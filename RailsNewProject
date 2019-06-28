@@ -1,0 +1,32 @@
+Make sure rails gem is installed on your machine
+1.Create new rails app without the default test and postgresql database
+
+rails new super-awesome-app -T --database=postgresql
+
+ow To Install and Use PostgreSQL on Ubuntu 16.04 
+
+Installation
+
+    sudo apt-get update
+    sudo apt-get install postgresql postgresql-client
+
+Switch over to the postgres account on your server by typing:
+
+    sudo -i -u postgres
+
+Exit out of the PostgreSQL prompt by typing:
+
+    \q
+    
+sudo -u postgres createuser --interactive
+or 
+psql
+
+create user myapp with password 'password1';
+alter user myapp with superuser;
+\q
+
+now goto rails directory type following commands
+rails db:create
+
+
